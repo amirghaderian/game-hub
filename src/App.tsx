@@ -11,16 +11,14 @@ const App = () => {
         }}
       >
         <GridItem area="nav">
-          <NavBar/>
+          <NavBar />
         </GridItem>
         <Show above="lg">
-          <GridItem area="aside" >
-            Aside
-          </GridItem>
+          <GridItem area="aside">Aside</GridItem>
         </Show>
 
-        <GridItem area="main" >
-          <GameGrid/>
+        <GridItem area="main">
+          <GameGrid />
         </GridItem>
       </Grid>
     </>
